@@ -1,0 +1,11 @@
+log_application: myapp
+log_path: logs
+log_level: info
+log_writers: stdout,file
+log_format: text
+log_development: false
+log_color: false
+log_rotate_max_backup: 10
+log_rotate_max_size: 1
+log_rotate_max_age: 7
+log_rotate_compress: true
